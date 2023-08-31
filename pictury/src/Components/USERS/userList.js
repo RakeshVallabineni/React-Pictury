@@ -29,7 +29,7 @@ function UserList({ reloadUsers, userStatus }) {
         style={{
           left: "150px",
           marginTop: "-53px",
-          marginLeft: "-90px",
+          marginLeft: "-150px",
           backgroundColor: "black",
         }}
       >
