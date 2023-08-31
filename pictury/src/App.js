@@ -4,14 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route >
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/home" element={<HomeUI />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+    <div className="App">
+      <BrowserRouter>
+      <Routes>
+        <Route >
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<HomeUI />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  </div>
   );
 }
 
