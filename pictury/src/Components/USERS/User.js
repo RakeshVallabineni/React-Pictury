@@ -42,7 +42,7 @@ function User() {
         variant="contained"
         style={{
           backgroundColor: "black",
-          left: "350px",
+          left: "250px",
           marginTop: "-53px",
           width: "100px",
         }}
